@@ -1,4 +1,4 @@
-﻿const skills = [
+const skills = [
   "TypeScript",
   "JavaScript",
   "React",
@@ -177,7 +177,7 @@ export default function Home() {
           I&apos;m open to junior developer opportunities, collaborations and
           conversations about technology.
         </p>
-        <a className="button-primary" href="mailto:YOUR_EMAIL@example.com">
+        <a className="button-primary" href="mailto:wallynthani@gmail.com">
           Start a conversation <span>↗</span>
         </a>
       </section>
