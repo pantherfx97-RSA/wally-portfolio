@@ -137,21 +137,23 @@ export default function Home() {
         <article className="project-card">
           <div className="project-topline">
             <span>FEATURED PROJECT / 001</span>
-            <span>2026</span>
+            <span>2026 / HACKATHON PROJECT</span>
           </div>
+
           <div className="project-content">
             <div>
               <p className="project-category">CAREER READINESS / EDTECH</p>
               <h3>WorkBridge<span>.</span></h3>
               <p className="project-description">
                 A skills-first career readiness platform designed to help
-                young people understand their strengths, build practical skills
-                and create evidence of their capabilities.
+                young people recognise their strengths, develop practical
+                capabilities and build evidence of their potential.
               </p>
               <a className="project-link" href="https://workbridge-navy.vercel.app" target="_blank" rel="noopener noreferrer">
-                Explore WorkBridge <span>↗</span>
+                Explore WorkBridge <span>&#8599;</span>
               </a>
             </div>
+
             <div className="project-preview">
               <div className="preview-label">WORKBRIDGE / PLATFORM</div>
               <div className="preview-title">Your potential<br /><span>deserves an</span><br />opportunity.</div>
@@ -162,8 +164,39 @@ export default function Home() {
               </div>
             </div>
           </div>
+
+          <div className="project-details">
+            <div className="project-detail">
+              <p className="detail-label">01 / THE CHALLENGE</p>
+              <h4>Potential without direction.</h4>
+              <p>
+                Many young people struggle to translate their interests and
+                abilities into practical career pathways and demonstrable skills.
+              </p>
+            </div>
+
+            <div className="project-detail">
+              <p className="detail-label">02 / THE SOLUTION</p>
+              <h4>A structured path forward.</h4>
+              <p>
+                WorkBridge brings together career assessment, skills roadmaps,
+                learning progress, evidence-based portfolios and opportunity discovery.
+              </p>
+            </div>
+
+            <div className="project-detail">
+              <p className="detail-label">03 / ENGINEERING & CONTRIBUTION</p>
+              <h4>My engineering contribution.</h4>
+              <p>
+                I worked on the product concept, application architecture,
+                responsive interface, authentication, database integration,
+                progress tracking and deployment.
+              </p>
+            </div>
+          </div>
+
           <div className="project-tags">
-            {["Next.js", "TypeScript", "Supabase", "Tailwind CSS", "PostgreSQL"].map((tag) => (
+            {["Next.js", "TypeScript", "React", "Tailwind CSS", "Supabase", "PostgreSQL"].map((tag) => (
               <span key={tag}>{tag}</span>
             ))}
           </div>

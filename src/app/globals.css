@@ -1,4 +1,4 @@
-﻿@import "tailwindcss";
+@import "tailwindcss";
 
 :root {
   --background: #090b10;
@@ -566,3 +566,54 @@ h3 span {
   }
 }
 
+
+/* WorkBridge case study details */
+.project-details {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px;
+  border-top: 1px solid var(--border);
+  padding: 28px 0;
+}
+
+.project-detail {
+  min-width: 0;
+}
+
+.detail-label {
+  color: var(--accent);
+  font-size: 9px;
+  letter-spacing: 1.5px;
+  margin-bottom: 14px;
+}
+
+.project-detail h4 {
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 0 0 10px;
+}
+
+.project-detail > p:last-child {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.8;
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .project-details {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .project-details {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 24px 0;
+  }
+
+  .project-detail h4 {
+    font-size: 15px;
+  }
+}
