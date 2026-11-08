@@ -177,7 +177,7 @@ export default function Home() {
           I&apos;m open to junior developer opportunities, collaborations and
           conversations about technology.
         </p>
-        <a className="button-primary" href="mailto:wallynthani@gmail.com">
+        <a className="button-primary" href="https://mail.google.com/mail/?view=cm&fs=1&to=wallynthani@gmail.com">
           Start a conversation <span>↗</span>
         </a>
       </section>
