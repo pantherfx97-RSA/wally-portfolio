@@ -54,6 +54,13 @@ export default function Home() {
               Explore my work <span>↗</span>
             </a>
             <a className="button-secondary" href="#contact">Get in touch</a>
+            <a
+              className="button-secondary"
+              href="/Wally_Nthani_CV.pdf"
+              download="Wally_Nthani_CV.pdf"
+            >
+              Download CV <span aria-hidden="true">&#8595;</span>
+            </a>
           </div>
         </div>
 
