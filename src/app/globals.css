@@ -617,3 +617,16 @@ h3 span {
     font-size: 15px;
   }
 }
+
+
+/* Recruiter profile links */
+.footer-links {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  font-size: 11px;
+}
+
+.footer-links a {
+  color: var(--muted);
+}

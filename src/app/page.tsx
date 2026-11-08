@@ -217,8 +217,18 @@ export default function Home() {
 
       <footer className="footer">
         <a className="brand" href="#home">WN<span>.</span></a>
-        <p>© 2026 Wally Nthani. Built with purpose.</p>
-        <a href="#home">Back to top ↑</a>
+
+        <div className="footer-links">
+          <a href="https://github.com/pantherfx97-RSA" target="_blank" rel="noopener noreferrer">
+            GitHub <span aria-hidden="true">&#8599;</span>
+          </a>
+          <a href="https://www.linkedin.com/in/wally-nthani-37a059249/" target="_blank" rel="noopener noreferrer">
+            LinkedIn <span aria-hidden="true">&#8599;</span>
+          </a>
+        </div>
+
+        <p>&copy; 2026 Wally Nthani. Built with purpose.</p>
+        <a href="#home">Back to top <span aria-hidden="true">&uarr;</span></a>
       </footer>
     </main>
   );
